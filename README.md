@@ -10,7 +10,7 @@
 
 ## 📖 About
 
-This is a solution to the [Profile Card Component]() challenge on [Frontend Mentor](https://www.frontendmentor.io/) which I've built with the help of a popular VSCode extension known as `Prettier`.
+This is a solution to the [Profile Card Component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/) challenge on [Frontend Mentor](https://www.frontendmentor.io/) which I've built with the help of a popular VSCode extension known as `Prettier`.
 
 ## 🧑‍💻 The author
 
