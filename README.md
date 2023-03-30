@@ -18,12 +18,12 @@ Frontend Mentor - [@ZascuOfficial](https://www.frontendmentor.io/profile/ZascuOf
 
 ## 🌐 Links
 
-- [Live site](# 'The URL of the live site - Not available')
+- [Live site](https://zascuofficial-profile-card.netlify.app/ 'The URL of the live site')
 - [Solution](# 'The URL of the solution - Not available')
 
 ## 🖼️ Preview
 
-![Preview Image](# 'The preview image of the solution - Not available')
+![Preview Image](dist/img/preview.png 'The preview image of the solution')
 
 ## 💻 Technologies Used
 
