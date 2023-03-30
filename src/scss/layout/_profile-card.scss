@@ -1,0 +1,72 @@
+@use '../abstracts/variables';
+
+.profile-card {
+  width: 90%;
+  max-width: 21.75rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 1rem 3.75rem hsl(227, 10%, 46%, 0.6);
+  animation: popIn ease 1500ms;
+
+  &__banner {
+    min-height: 9rem;
+    position: relative;
+    background: url('/dist/img/pattern-card.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &__image {
+    $width: 6rem;
+
+    width: $width;
+    position: absolute;
+    left: 50%;
+    bottom: -($width / 2);
+    transform: translateX(-50%);
+    border: 5px solid #fff;
+    border-radius: 50%;
+  }
+
+  &__details,
+  &__stats {
+    background: #fff;
+  }
+
+  &__details {
+    padding: 4.5rem 0 1.5rem;
+  }
+
+  &__stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    flex-wrap: wrap;
+    padding: 1.5rem 3rem;
+    border-top: 0.5px solid hsl(0, 0%, 59%, 0.25);
+
+    & > * {
+      flex: 1;
+    }
+  }
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(1.125);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
