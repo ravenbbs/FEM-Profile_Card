@@ -1,0 +1,22 @@
+@use '../abstracts/variables';
+
+body {
+  font-family: variables.$ff-body;
+  font-weight: variables.$fw-bold;
+  font-size: variables.$fs-body;
+}
+
+.profile-card__age,
+.profile-card__location,
+.profile-card__attribute {
+  font-weight: variables.$fw-normal;
+}
+
+.profile-card__location {
+  font-size: 1rem;
+}
+
+.profile-card__attribute {
+  font-size: 0.875rem;
+  letter-spacing: 0.1rem;
+}
