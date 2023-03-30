@@ -1,0 +1,36 @@
+@use '../abstracts/variables';
+
+*::selection {
+  background: variables.$clr-primary-600;
+  color: #fff;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background: variables.$clr-primary-400;
+  color: variables.$clr-primary-600;
+}
+
+.profile-card__age,
+.profile-card__location,
+.profile-card__attribute {
+  color: variables.$clr-primary-500;
+}
+
+.profile-card__name,
+.profile-card__age {
+  display: inline-block;
+}
+
+.profile-card__name {
+  margin-bottom: 0.6rem;
+}
+
+.profile-card__age {
+  margin-left: 0.5rem;
+}
+
+.profile-card__value {
+  margin-bottom: 0.35rem;
+}
